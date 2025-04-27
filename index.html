@@ -4,6 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dave's T-Shirt Store</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      line-height: 1.4em;
+    }
+  </style>
+
+  <!-- Google Conversational Agent script -->
   <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
   <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
   <df-messenger
@@ -29,9 +55,20 @@
       right: 16px;
     }
   </style>
+
+
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p>This is my first GitHub Page.</p>
+  <h1>Welcome to Dave's T-shirt Store</h1>
+  <p>
+    We're a small business.
+    <br>
+    In fact, we only have 1 staff member, and he's not even reliable.
+  </p>
+  <p>
+    Anyway, if you'd like to order a T-shirt, please go ahead and say hello
+    <br>
+    (click the thing in the bottom right corner)
+  </p>
 </body>
 </html>
