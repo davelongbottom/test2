@@ -4,7 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dave's T-Shirt Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
   <style>
+    .cal-sans-regular {
+      font-family: "Cal Sans", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
     body {
       margin: 0;
       height: 100vh;
@@ -12,15 +20,16 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      background-color: #000000;
       font-family: 'Roboto', sans-serif;
-      background-color: #ff95d6;
-      color: #333;
       text-align: center;
+      color: darkgrey;
       padding: 20px;
     }
     h1 {
       font-size: 2.5em;
       margin-bottom: 20px;
+      color: #fc116c;
     }
     p {
       font-size: 1.2em;
@@ -59,16 +68,9 @@
 
 </head>
 <body>
-  <h1>Welcome to Dave's T-shirt Store</h1>
+  <h1 class="cal-sans-regular">Conversational Agent Demo</h1>
   <p>
-    We're a small business.
-    <br>
-    In fact, we only have 1 staff member, and he's not even reliable.
-  </p>
-  <p>
-    Anyway, if you'd like to order a T-shirt, please go ahead and say hello
-    <br>
-    (click the thing in the bottom right corner)
+    To get started, click the agent widget in the bottom right corner.
   </p>
 </body>
 </html>
