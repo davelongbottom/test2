@@ -18,18 +18,18 @@
       height: 100vh;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: left;
       justify-content: center;
       background-color: #000000;
       font-family: 'Roboto', sans-serif;
-      text-align: center;
+      text-align: left;
       color: darkgrey;
-      padding: 20px;
+      padding: 50px;
     }
     h1 {
       font-size: 2.5em;
       margin-bottom: 20px;
-      color: #fc116c;
+      color: #11fce1;
     }
     p {
       font-size: 1.2em;
@@ -44,33 +44,35 @@
   <df-messenger
     location="australia-southeast1"
     project-id="strategic-ivy-458005-m6"
-    agent-id="7aa2f63f-75cd-4253-af62-456a6acb10c4"
+    agent-id="45c69d86-e086-4aae-aec6-417d6ef13396"
     language-code="en"
     max-query-length="-1">
-    <df-messenger-chat-bubble
-      chat-title="Order a T-Shirt">
-    </df-messenger-chat-bubble>
+    <df-messenger-chat
+      chat-title="T-Shirt Shop Flow Agent">
+    </df-messenger-chat>
   </df-messenger>
   <style>
     df-messenger {
       z-index: 999;
       position: fixed;
       --df-messenger-font-color: #000;
-      --df-messenger-font-family: Google Sans;
-      --df-messenger-chat-background: #f3f6fc;
-      --df-messenger-message-user-background: #d3e3fd;
+      --df-messenger-font-family: "Cal Sans", sans-serif;
+      --df-messenger-chat-background: #000000;
+      --df-messenger-message-user-background: #11fce1;
       --df-messenger-message-bot-background: #fff;
-      bottom: 16px;
-      right: 16px;
+      bottom: 0;
+      right: 0;
+      top: 0;
+      width: 50%;
     }
   </style>
 
 
 </head>
 <body>
-  <h1 class="cal-sans-regular">Conversational Agent Demo</h1>
-  <p>
-    To get started, click the agent widget in the bottom right corner.
-  </p>
+  <h1 class="cal-sans-regular">Conversational Agent Demo 2</h1>
+  <h2>
+    Flow Agent with Webhook
+  </h2>
 </body>
 </html>
